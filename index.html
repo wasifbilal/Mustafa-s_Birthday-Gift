@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#160f2b" />
+  <title>For Mustafa Kamran ✨</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <div id="confetti-layer" aria-hidden="true"></div>
+  <div id="balloon-layer" aria-hidden="true"></div>
+  <div id="sparkle-layer" aria-hidden="true"></div>
+
+  <main class="page-shell">
+    <header class="topline">
+      <span class="tiny-star">✦</span>
+      <span>A LITTLE SOMETHING JUST FOR YOU</span>
+      <span class="tiny-star">✦</span>
+    </header>
+
+    <!-- SCREEN 1: Gift -->
+    <section class="screen intro active" id="intro">
+      <p class="eyebrow">A special delivery has arrived</p>
+      <h1>Hey, <span>Mustafa</span>!</h1>
+      <p class="intro-copy">Someone has a little surprise waiting for you.<br>Ready to unwrap it?</p>
+      <button class="gift-button" id="open-gift" aria-label="Open your birthday gift">
+        <span class="gift-glow"></span>
+        <span class="gift-box" id="gift-box">
+          <span class="gift-lid"></span><span class="gift-body"></span>
+          <span class="gift-ribbon-vertical"></span><span class="gift-ribbon-horizontal"></span>
+          <span class="gift-bow bow-left"></span><span class="gift-bow bow-right"></span>
+          <span class="gift-knot"></span>
+        </span>
+        <span class="tap-hint">TAP TO OPEN <span>↗</span></span>
+      </button>
+      <p class="small-note">No wrapping paper was harmed in the making of this surprise.</p>
+    </section>
+
+    <!-- SCREEN 2: Birthday celebration -->
+    <section class="screen birthday" id="birthday" aria-live="polite">
+      <div class="sparkle-line">✧ &nbsp; ✦ &nbsp; ✧</div>
+      <p class="eyebrow">Today is all about you</p>
+      <h2>Happy Birthday,<br><span>Mustafa Kamran!</span></h2>
+      <p class="birthday-subtitle">A whole new chapter, full of good things.</p>
+
+      <div class="cake-scene">
+        <div class="cake-sparkle sparkle-a">✦</div><div class="cake-sparkle sparkle-b">✧</div>
+        <div class="candle-row">
+          <div class="candle"><i class="flame"></i></div>
+          <div class="candle"><i class="flame"></i></div>
+          <div class="candle"><i class="flame"></i></div>
+        </div>
+        <div class="cake-top"></div>
+        <div class="cake-middle"><span>✦</span><span>✧</span><span>✦</span></div>
+        <div class="cake-bottom"></div><div class="cake-plate"></div>
+      </div>
+      <p class="celebration-line">Make a wish. You deserve all the good things. ✨</p>
+      <button class="primary-button" id="to-wishes">There's more for you <span>→</span></button>
+    </section>
+
+    <!-- SCREEN 3: Wishes -->
+    <section class="screen wishes-screen" id="wishes">
+      <div class="sparkle-line">✧ &nbsp; ✦ &nbsp; ✧</div>
+      <p class="eyebrow">A little wish list for your new year</p>
+      <h2>May this year bring<br><span>beautiful things.</span></h2>
+      <p class="screen-intro">A few things I genuinely hope life gives you more of:</p>
+
+      <div class="wish-grid">
+        <article class="wish-tile"><span class="wish-icon">🌟</span><h3>Big wins</h3><p>May your hard work turn into achievements you're proud of.</p></article>
+        <article class="wish-tile"><span class="wish-icon">🌿</span><h3>Peaceful days</h3><p>May you find calm, confidence, and time to enjoy the little things.</p></article>
+        <article class="wish-tile"><span class="wish-icon">🚀</span><h3>New adventures</h3><p>May exciting opportunities take you places you've dreamed of.</p></article>
+        <article class="wish-tile"><span class="wish-icon">😂</span><h3>Endless laughter</h3><p>May your year be full of good people and unforgettable moments.</p></article>
+      </div>
+      <div class="wish-footer">And, of course, plenty of cake. 🍰</div>
+      <div class="nav-actions">
+        <button class="secondary-button" data-back="birthday">← Back</button>
+        <button class="primary-button" id="to-letter">One last thing <span>→</span></button>
+      </div>
+    </section>
+
+    <!-- SCREEN 4: Heartfelt friendship letter -->
+    <section class="screen letter-screen" id="letter">
+      <div class="sparkle-line">✧ &nbsp; ✦ &nbsp; ✧</div>
+      <p class="eyebrow">A note from the heart</p>
+      <h2>To a wonderful<br><span>friend.</span></h2>
+      <article class="message-card">
+        <div class="card-icon">💌</div>
+        <p class="message-label">Dear Mustafa Kamran,</p>
+        <p class="message-text">
+          Some people make ordinary days feel a little brighter just by being part of them.
+          I'm genuinely grateful for the laughs, the memories, and all the little moments
+          of friendship we've shared.
+        </p>
+        <p class="message-text">
+          I hope this year brings you new opportunities, big achievements, peaceful days,
+          and countless reasons to smile. Keep being your awesome self, keep chasing what
+          matters to you, and never forget how much your friendship is appreciated.
+        </p>
+        <p class="message-text">
+          No matter how busy life gets or where our paths take us, I hope we keep making
+          great memories and cheering each other on.
+        </p>
+        <p class="message-highlight">Wishing you happiness today and always. Happy Birthday! 🎂</p>
+        <div class="signature">With best wishes &nbsp; <span>✦</span></div>
+      </article>
+
+      <div class="final-wish">
+        <div class="final-wish-icon">✨</div>
+        <p>One more wish?</p>
+        <button class="wish-button" id="make-wish">Make a wish</button>
+        <span class="wish-result" id="wish-result">May the year ahead surprise you in the best possible ways.</span>
+      </div>
+      <div class="nav-actions">
+        <button class="secondary-button" data-back="wishes">← Back</button>
+        <button class="primary-button" id="replay">Replay the surprise ↻</button>
+      </div>
+      <p class="footer-note">Made with friendship, good wishes & a little bit of magic ✨</p>
+    </section>
+  </main>
+
+  <button class="sound-toggle" id="sound-toggle" aria-label="Toggle celebration sound" title="Toggle sound">
+    <span id="sound-icon">♫</span><span id="sound-label">Sound off</span>
+  </button>
+  <script src="script.js"></script>
+</body>
+</html>
